@@ -14,11 +14,11 @@ export function Crop() {
     <View style={styles.container}>
       <IconButton
         iconID="close"
-        text="Cancel"
+        text="취소"
         onPress={() => setEditingMode("operation-select")}
       />
-      <Text style={styles.prompt}>Adjust window to crop</Text>
-      <IconButton iconID="check" text="Done" onPress={onPerformCrop} />
+      <Text style={styles.prompt}>잘라낼 영역을 선택하세요</Text>
+      <IconButton iconID="check" text="적용" onPress={onPerformCrop} />
     </View>
   );
 }

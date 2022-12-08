@@ -75,21 +75,21 @@ export function Rotate() {
       <View style={[styles.row, { paddingHorizontal: "20%" }]}>
         <IconButton
           iconID="rotate-left"
-          text="Rotate -90"
+          text="왼쪽으로 회전"
           onPress={() => rotate("ccw")}
         />
         <IconButton
           iconID="rotate-right"
-          text="Rotate +90"
+          text="오른쪽으로 회전"
           onPress={() => rotate("cw")}
         />
       </View>
       <View style={styles.row}>
-        <IconButton iconID="close" text="Cancel" onPress={() => onClose()} />
+        <IconButton iconID="close" text="취소" onPress={() => onClose()} />
         <Text style={styles.prompt}>Rotate</Text>
         <IconButton
           iconID="check"
-          text="Done"
+          text="적용"
           onPress={() => setEditingMode("operation-select")}
         />
       </View>

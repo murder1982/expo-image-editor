@@ -39,7 +39,7 @@ export function OperationBar() {
 
 const styles = StyleSheet.create({
   container: {
-    height: 160,
+    height: 80,
     width: "100%",
     backgroundColor: "#333",
     justifyContent: "center",
