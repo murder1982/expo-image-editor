@@ -1,5 +1,7 @@
 # 🌁 Expo Image Editor
 
+## strich Fork Version
+
 A super simple image cropping and rotation tool for Expo that runs on iOS, Android and Web!
 
 | ![Screenshot_20201013-161416](https://user-images.githubusercontent.com/31568400/95880744-c0ac9980-0d6f-11eb-8610-73d291f1013b.jpg) | ![Screenshot_20201013-161447](https://user-images.githubusercontent.com/31568400/95880752-c2765d00-0d6f-11eb-8345-ca7420fabf9b.jpg) | ![Screenshot_20201013-161347](https://user-images.githubusercontent.com/31568400/95880755-c30ef380-0d6f-11eb-9567-4eaf188a18d6.jpg) |

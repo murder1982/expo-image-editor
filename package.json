@@ -1,6 +1,6 @@
 {
   "name": "expo-image-editor",
-  "version": "1.7.1",
+  "version": "1.0.0",
   "description": "",
   "main": "lib/commonjs/index.js",
   "types": "lib/typescript/src/index.d.ts",
@@ -23,15 +23,14 @@
     "image",
     "image editor",
     "image cropping",
-    "blur",
     "expo"
   ],
   "author": "Thomas Coldwell",
   "license": "MIT",
-  "homepage": "https://github.com/thomas-coldwell/expo-image-editor",
+  "homepage": "https://github.com/murder1982/expo-image-editor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomas-coldwell/expo-image-editor"
+    "url": "https://github.com/murder1982/expo-image-editor"
   },
   "dependencies": {
     "@miblanchard/react-native-slider": "^1.5.0",
