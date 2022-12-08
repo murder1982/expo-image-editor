@@ -59,7 +59,12 @@ function ControlBar() {
 
   return (
     <View style={styles.container}>
-      <IconButton iconID="arrow-back" text="뒤로" onPress={onPressBack} />
+      <IconButton
+        iconID="arrow-back"
+        text="뒤로"
+        onPress={onPressBack}
+        disabled={shouldDisableDoneButton}
+      />
       <IconButton
         iconID="done"
         text="적용"

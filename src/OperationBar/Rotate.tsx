@@ -72,7 +72,8 @@ export function Rotate() {
 
   return (
     <View style={styles.container}>
-      <View style={[styles.row, { paddingHorizontal: "20%" }]}>
+      <View style={[styles.row, { paddingHorizontal: "0%" }]}>
+        <IconButton iconID="close" text="취소" onPress={() => onClose()} />
         <IconButton
           iconID="rotate-left"
           text="왼쪽으로 회전"
@@ -83,10 +84,6 @@ export function Rotate() {
           text="오른쪽으로 회전"
           onPress={() => rotate("cw")}
         />
-      </View>
-      <View style={styles.row}>
-        <IconButton iconID="close" text="취소" onPress={() => onClose()} />
-        <Text style={styles.prompt}>Rotate</Text>
         <IconButton
           iconID="check"
           text="적용"
